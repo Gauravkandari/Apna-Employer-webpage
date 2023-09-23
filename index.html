@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Apna is a leading job portal trusted by 4 lakh+ recruiters to post jobs & hire candidates. Apna makes job recruitment easier and faster.">
+    <title>Apna Employer Login | Hire Candidates | Post a Job</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css"
+        integrity="sha512-UBY4KATrDAEKgEEU+RAfY4yWrK0ah43NGwNr5o/xmncxsT+rv8jp7MI3a00I0Ep3NbAx05U5kw3DvyNCoz+Wcw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-1 col-tp-2 col-m-1 col-mp-1">
+                    <div class="logo">
+                        <a href="">
+                            <svg width="48" height="48" viewBox="0 0 56 56" class="apna-time-logo">
+                                <g data-name="Group 1" fill="#fff">
+                                    <path data-name="Path 1"
+                                        d="M11.23 0h33.54A11.228 11.228 0 0156 11.23v33.54A11.228 11.228 0 0144.77 56H11.23A11.228 11.228 0 010 44.77V11.23A11.228 11.228 0 0111.23 0z">
+                                    </path>
+                                    <path data-name="Path 2"
+                                        d="M11.23 0h33.54A11.228 11.228 0 0156 11.23v33.54A11.228 11.228 0 0144.77 56H11.23A11.228 11.228 0 010 44.77V11.23A11.228 11.228 0 0111.23 0z">
+                                    </path>
+                                </g>
+                                <path data-name="Path 3" d="M44.77 56h-7.437v-7h17.843a11.232 11.232 0 01-10.4 7z"
+                                    fill="#ffd166" fill-rule="evenodd"></path>
+                                <path data-name="Path 4" d="M18.667 49v7h-7.438a11.232 11.232 0 01-10.4-7z"
+                                    fill="#2bb793" fill-rule="evenodd"></path>
+                                <path data-name="Path 5" d="M18.667 49h18.667v7H18.667z" fill="#83bde4"
+                                    fill-rule="evenodd"></path>
+                                <path data-name="Path 6"
+                                    d="M15.333 30.26a1.9 1.9 0 00.142.84.909.909 0 00.505.414l-.809 2.568a4.964 4.964 0 01-1.78-.414 2.685 2.685 0 01-1.132-1.082A3.637 3.637 0 019 34.163a3.53 3.53 0 01-2.579-.96 3.316 3.316 0 01-.98-2.478 3.166 3.166 0 011.334-2.75 6.654 6.654 0 013.883-.95h.768v-.263a1.428 1.428 0 00-.323-1.092 1.943 1.943 0 00-1.234-.283 6.617 6.617 0 00-1.244.151 13.01 13.01 0 00-1.547.415l-.87-2.548a12.257 12.257 0 014.268-.849 5.666 5.666 0 013.7.98 3.725 3.725 0 011.153 3v3.724zm-5.1 1.092a1.321 1.321 0 00.678-.182 1.63 1.63 0 00.515-.465v-1.6h-.424a2.086 2.086 0 00-1.254.3 1.086 1.086 0 00-.405.93 1.07 1.07 0 00.243.738.823.823 0 00.647.273zm13.67-8.8a3.409 3.409 0 013.024 1.516 7.556 7.556 0 011.02 4.247 7.955 7.955 0 01-.535 3A4.871 4.871 0 0125.9 33.4a3.585 3.585 0 01-2.255.758 3.226 3.226 0 01-2.507-1.072v4.854l-4 .4V22.96h3.559l.162 1.052A3.923 3.923 0 0122.3 22.9a4.036 4.036 0 011.607-.343zm-1.573 8.76q1.517 0 1.517-2.932a8.247 8.247 0 00-.162-1.881 1.563 1.563 0 00-.435-.86 1.105 1.105 0 00-.7-.212 1.641 1.641 0 00-1.415 1.011v4.126a1.8 1.8 0 00.546.576 1.227 1.227 0 00.647.172zm13.97-8.756a2.75 2.75 0 012.133.849 3.4 3.4 0 01.779 2.386v7.968h-4v-7.24a1.589 1.589 0 00-.152-.829.515.515 0 00-.455-.222q-.667 0-1.355 1.071v7.22h-4V22.96h3.5l.284 1.112a5.118 5.118 0 011.526-1.152 4.08 4.08 0 011.75-.364zm13.852 7.7a1.913 1.913 0 00.141.84.911.911 0 00.506.414l-.809 2.568a4.958 4.958 0 01-1.78-.414 2.685 2.685 0 01-1.132-1.082 3.639 3.639 0 01-3.256 1.577 3.527 3.527 0 01-2.578-.96 3.316 3.316 0 01-.98-2.478 3.166 3.166 0 011.334-2.75 6.653 6.653 0 013.882-.95h.769v-.263a1.424 1.424 0 00-.324-1.092 1.939 1.939 0 00-1.233-.283 6.608 6.608 0 00-1.244.151 12.959 12.959 0 00-1.547.415l-.87-2.548a12.246 12.246 0 014.267-.849 5.665 5.665 0 013.7.98 3.725 3.725 0 011.153 3zm-5.1 1.092a1.32 1.32 0 00.677-.182 1.63 1.63 0 00.516-.465v-1.6h-.425a2.09 2.09 0 00-1.254.3 1.085 1.085 0 00-.4.93 1.065 1.065 0 00.243.738.823.823 0 00.647.273z"
+                                    fill="#4d3951"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-tp-4 col-m-1 col-mp-1">
+                    <div class="collapse">
+                        <nav>
+                            <ul>
+                                <li><a href="#jobs">Jobs</a></li>
+                                <li><a href="#database">Database</a></li>
+                                <li><a href="#sales">Sales Enquiry</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-5 col-tp-6 col-m-10 col-mp-9">
+                    <button class="login-btn">Login</button>
+                    <a href="#">Looking for a Job? <span><svg width="18" height="18" fill="none">
+                                <g clip-path="url(#prefix__clip0_1446_10634)">
+                                    <path
+                                        d="M15 15.833H5A.836.836 0 014.167 15V5c0-.458.375-.833.833-.833h4.167A.836.836 0 0010 3.333a.836.836 0 00-.833-.833h-5c-.925 0-1.667.75-1.667 1.667v11.666c0 .917.75 1.667 1.667 1.667h11.666c.917 0 1.667-.75 1.667-1.667v-5a.836.836 0 00-.833-.833.836.836 0 00-.834.833V15a.836.836 0 01-.833.833zm-3.333-12.5c0 .459.375.834.833.834h2.158L7.05 11.775a.83.83 0 101.175 1.175l7.608-7.608V7.5c0 .458.375.833.834.833A.836.836 0 0017.5 7.5V3.333a.836.836 0 00-.833-.833H12.5a.836.836 0 00-.833.833z"
+                                        fill="#5E6C84"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="prefix__clip0_1446_10634">
+                                        <path fill="#fff" d="M0 0h20v20H0z"></path>
+                                    </clipPath>
+                                </defs>
+                            </svg></span></a>
+                    <button class="mobile-nav-open"><svg class="menu-icon-svg" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 256 256" focusable="false"
+                            color="var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)) /* {&quot;name&quot;:&quot;Text&quot;} */"
+                            style="user-select: none; width: 28px; height: 28px; display: inline-block; fill: var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)); flex-shrink: 0;">
+                            <g
+                                color="var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)) /* {&quot;name&quot;:&quot;Text&quot;} */">
+                                <line x1="40" y1="128" x2="216" y2="128"
+                                    stroke="var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)) /* {&quot;name&quot;:&quot;Text&quot;} */"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                                <line x1="40" y1="64" x2="216" y2="64"
+                                    stroke="var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)) /* {&quot;name&quot;:&quot;Text&quot;} */"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                                <line x1="40" y1="192" x2="216" y2="192"
+                                    stroke="var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)) /* {&quot;name&quot;:&quot;Text&quot;} */"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                            </g>
+                        </svg></button>
+                    <button class="mobile-nav-close">
+                        <svg class="close-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
+                            focusable="false"
+                            color="var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)) /* {&quot;name&quot;:&quot;Text&quot;} */"
+                            style="user-select: none; width: 28px; height: 28px; display: inline-block; fill: var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)); flex-shrink: 0;">
+                            <g
+                                color="var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)) /* {&quot;name&quot;:&quot;Text&quot;} */">
+                                <line x1="200" y1="56" x2="56" y2="200"
+                                    stroke="var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)) /* {&quot;name&quot;:&quot;Text&quot;} */"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                                <line x1="200" y1="200" x2="56" y2="56"
+                                    stroke="var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)) /* {&quot;name&quot;:&quot;Text&quot;} */"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="wrap-2" data-aos="fade-down">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 col-t-6 col-tp-12">
+                    <p class="main-para left">INDIA’S #1 HIRING PLATFORM</p>
+                    <h1>Find the right
+                        candidate. Fast.</h1>
+                    <p>Trusted by 5 Cr+ Candidates | 4 Lakh+ Employers</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-5 col-t-6 col-tp-12">
+                    <div class="form-container">
+                        <h3>Employer Login/Sign Up</h3>
+                        <label for="num">+91</label>
+                        <input type="text" name="num" id="num" placeholder="Mobile Number" pattern="[0-9]{10}">
+                        <button>Login</button>
+                        <a href="#">&#128640; Click here for Enterprise login</a>
+                    </div>
+                </div>
+            </div>
+            <p class="main-para para-companies">COMPANIES THAT HIRE FROM US</p>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/flipkart.webp" alt="flipkart" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Swiggy.webp" alt="Swiggy" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/zomato-logo.webp" alt="zomato" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/rapido.webp" alt="rapido" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Uber.webp" alt="Uber" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/PharmEasy.webp" alt="PharmEasy" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Licious.webp" alt="Licious" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Byjus.webp" alt="Byjus" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Paytm.webp" alt="Paytm" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Jubliant.webp" alt="Jubliant" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Shaadi.webp" alt="Shaadi" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Indiamart.webp" alt="Indiamart" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Delhivery.webp" alt="Delhivery" loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Zepto.webp" alt="Zepto" loading="lazy">
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="wrap-3" data-aos="fade-left">
+        <div class="container">
+            <p class="main-para left">OUR SUCCESS</p>
+            <h2>Why companies hire from apna?</h2>
+            <p class="para-wrap-3">From startups to SMEs to established enterprises, Apna revolutionizes the way
+                businesses find high-quality talent quickly & effortlessly.</p>
+            <div class="slider-outer">
+                <div class="slider-container">
+                    <div class="slider-row">
+                        <div class="slider-row-1 center">
+                            <div>
+                                <span>2.3 Cr</span>
+                                <p>Candidates in T1 cities</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-2">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">5 Cr+</span>
+                                        <p>Active job Seekers</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>74+</span>
+                                        <p>Cities Pan India</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-row-3 center">
+                            <div>
+                                <span style="color: #552597;">70%</span>
+                                <p>Connected leads</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-4">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span>2.9 Cr</span>
+                                        <p>Males</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">2.1 Cr</span>
+                                        <p>Experienced</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">40 Lakh</span>
+                                        <p>Post Graduates</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>68 Lakh</span>
+                                        <p>BFSI</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-row-5 center">
+                            <div>
+                                <span>3 Cr</span>
+                                <p>0-4 years experienced</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-6">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">49 Lakh</span>
+                                        <p>accounting/Auditing</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>57 Lakh</span>
+                                        <p>BPO/Call-center</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-row-1 center">
+                            <div>
+                                <span>2.3 Cr</span>
+                                <p>Candidates in T1 cities</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-2">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">5 Cr+</span>
+                                        <p>Active job Seekers</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>74+</span>
+                                        <p>Cities Pan India</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-row-3 center">
+                            <div>
+                                <span style="color: #552597;">70%</span>
+                                <p>Connected leads</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-4">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span>2.9 Cr</span>
+                                        <p>Males</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">2.1 Cr</span>
+                                        <p>Experienced</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">40 Lakh</span>
+                                        <p>Post Graduates</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>68 Lakh</span>
+                                        <p>BFSI</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-row-5 center">
+                            <div>
+                                <span>3 Cr</span>
+                                <p>0-4 years experienced</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-6">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">49 Lakh</span>
+                                        <p>accounting/Auditing</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>57 Lakh</span>
+                                        <p>BPO/Call-center</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-row">
+                        <div class="slider-row-3 center">
+                            <div>
+                                <span>40%</span>
+                                <p>Economical than competitors</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-4">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span>32 Lakh</span>
+                                        <p>IT Services</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">1.9 Cr</span>
+                                        <p>Fresher</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">1.1 Cr</span>
+                                        <p>Females</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>1.2 Cr</span>
+                                        <p>Graduates</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-row-1 center">
+                            <div>
+                                <span>30%</span>
+                                <p>Exclusive talent on apna</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-2">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">1 Cr</span>
+                                        <p>Tier 2 candidates</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>1.1 Cr</span>
+                                        <p>4+ years experienced</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-row-1 center">
+                            <div>
+                                <span>7/10</span>
+                                <p>Freshers choose apna</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-5 center">
+                            <div>
+                                <span>1.2 Cr</span>
+                                <p>Graduates</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-3 center">
+                            <div>
+                                <span>40%</span>
+                                <p>Economical than competitors</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-4">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span>32 Lakh</span>
+                                        <p>IT Services</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">1.9 Cr</span>
+                                        <p>Fresher</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">1.1 Cr</span>
+                                        <p>Females</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>1.2 Cr</span>
+                                        <p>Graduates</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-row-1 center">
+                            <div>
+                                <span>30%</span>
+                                <p>Exclusive talent on apna</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-2">
+                            <ul>
+                                <li class="center">
+                                    <div>
+                                        <span style="color: #552597;">1 Cr</span>
+                                        <p>Tier 2 candidates</p>
+                                    </div>
+                                </li>
+                                <li class="center">
+                                    <div>
+                                        <span>1.1 Cr</span>
+                                        <p>4+ years experienced</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider-row-1 center">
+                            <div>
+                                <span>7/10</span>
+                                <p>Freshers choose apna</p>
+                            </div>
+                        </div>
+                        <div class="slider-row-5 center">
+                            <div>
+                                <span>1.2 Cr</span>
+                                <p>Graduates</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wrap-4" data-aos="fade-up">
+        <div class="container">
+            <p class="main-para">APNA IN NEWS</p>
+            <h2>Media & Mentions</h2>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/WhatsApp-Image.jpeg" alt="WhatsApp-Image" loading="lazy">
+                    </figure>
+                    <div class="content">
+                        <h3>SMBs emerge as the leading job creators in India: Apna.co</h3>
+                        <a class="btn" href="#">Read More</a>
+                    </div>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/handshake.avif" alt="handshake" loading="lazy">
+                    </figure>
+                    <div class="content">
+                        <h3>Apna.co, DGR partner to provide hyperlocal career opportunities for ex-servicemen</h3>
+                        <a class="btn" href="#">Read More</a>
+                    </div>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/empowerment.avif" alt="empowerment" loading="lazy">
+                    </figure>
+                    <div class="content">
+                        <h3>Unlocking India’s potential through women workforce</h3>
+                        <a class="btn" href="#">Read More</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="wrap-5" id="jobs">
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-4 col-tp-6 col-m-12">
+                    <div class="img">
+                        <figure>
+                            <img src="images/img1.webp" alt="img1" loading="lazy">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-6 col-tp-6 col-m-12" data-aos="fade-up">
+                    <p class="main-para left">GET STARTED WITH APNA</p>
+                    <h2>Post a job in minutes</h2>
+                    <p class="para-wrap-5">Revolutionize your hiring with our AI-powered algorithm.</p>
+                    <ul>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: rgb(92, 94, 118);">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; Get unlimited applications</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: rgb(92, 94, 118);">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; 10x higher relevancy</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: rgb(92, 94, 118);">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; Simplified job posting</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: rgb(92, 94, 118);">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; 40% better ROI than market</li>
+                    </ul>
+                    <a class="btn" href="#">Post a job now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wrap-5 bg-grey" id="database">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-tp-6 col-m-12" data-aos="fade-up">
+                    <p class="main-para left">HIRE FASTER, HIRE BETTER</p>
+                    <h2>Introducing apna Database</h2>
+                    <p class="para-wrap-5">Find candidates based on location, skills and salary preferences from India’s
+                        fastest growing talent pool.</p>
+                    <ul>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: rgb(31, 130, 104);">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; 5 Cr+ active job seekers </li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: rgb(31, 130, 104);">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; One click contact</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: rgb(31, 130, 104);">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; Bulk download of profiles</li>
+                    </ul>
+                    <a class="btn" href="#">Post a job now</a>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-4 col-tp-6 col-m-12">
+                    <div class="img">
+                        <figure>
+                            <img src="images/img2.webp" alt="img2" loading="lazy">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside class="wrap-6" data-aos="fade-up">
+        <div class="container">
+            <p class="main-para">TESTIMONIALS</p>
+            <ul>
+                <li>
+                    <img src="images/shadowfax.webp" alt="shadowfax" loading="lazy">
+                </li>
+                <li>
+                    <img src="images/tata.webp" alt="tata" loading="lazy">
+                </li>
+                <li>
+                    <img src="images/swigy.webp" alt="swigy" loading="lazy">
+                </li>
+            </ul>
+            <div class="reviews">
+                <div class="shadowfox">
+                    <blockquote>
+                        <p>❝ Team apna has provided us with great support. 75% of our job fulfillment for delivery
+                            personnel has been through the apna. I love the skill tag feature as we don’t have to
+                            manually type requirements. ❞</p>
+                    </blockquote>
+                    <p class="name">Neraj Gupta</p>
+                    <p class="position">City Head of Supply, Mumbai</p>
+                </div>
+                <div class="tata">
+                    <blockquote>
+                        <p>❝ We are closely working with apna for talent discovery and hiring across job families. Their
+                            quickest turn-around time is enabling us to uninterruptedly continue our daily functions and
+                            services, especially during the present times. ❞</p>
+                    </blockquote>
+                    <p class="name">Dr Varun</p>
+                    <p class="position">SVP, Medical Affairs</p>
+                </div>
+                <div class="swigy">
+                    <blockquote>
+                        <p>❝ I would appreciate apna for supporting our organization in sourcing eligible candidates for
+                            different roles in different locations for our esteemed clients like D-Mart, Amazon,
+                            Thyssenkrup, and Jubilant. The apna portal is incredible. ❞</p>
+                    </blockquote>
+                    <p class="name">Sikha Negi</p>
+                    <p class="position">Director, Swiggy</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <section class="wrap-7" id="sales">
+        <div class="container">
+            <p class="main-para">Looking for enterprise solutions?</p>
+            <h2>Sales Enquiry</h2>
+            <div class="row">
+                <div class="col-3 col-t-1"></div>
+                <div class="col-6 col-t-10 col-m-12">
+                    <div class="row">
+                        <div class="col-6 col-m-12">
+                            <input type="text" placeholder="First Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Company">
+                        </div>
+                        <div class="col-6 col-m-12">
+                            <input type="text" placeholder="Last Name">
+                            <input type="email" placeholder="Mobile Number">
+                            <select name="employee" id="employee">
+                                <option value="" selected disabled>Number of Employees</option>
+                                <option value="">1-10</option>
+                                <option value="">11-50</option>
+                                <option value="">51-100</option>
+                                <option value="">101-500</option>
+                                <option value="">500+</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <ul>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: white;">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; 5 Cr+ Candidates</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: white;">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; 70+ Cities</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                style="width: 30px; height: 30px; display: inline-block; fill: white;">
+                                <g
+                                    color="var(--token-fbf0164e-dee2-4e19-9b25-5c9f4ebdcda6, rgb(91, 94, 118)) /* {&quot;name&quot;:&quot;Text Light&quot;} */">
+                                    <path
+                                        d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z">
+                                    </path>
+                                </g>
+                            </svg>&nbsp; 50 Lakh+ Jobs</li>
+                    </ul>
+                </div>
+                <div class="col-3 col-t-1"></div>
+            </div>
+        </div>
+    </section>
+    <section class="wrap-8 bg-grey">
+        <div class="container">
+            <p class="main-para">FAQ</p>
+            <h2>Frequently asked questions.</h2>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 col-t-12">
+                    <div class="faq-section">
+                        <ul>
+                            <li>
+                                <div class="question">
+                                    How can I hire the best candidates for my job?
+                                </div>
+                                <div class="answer">
+                                    Apna app has over 5 Crore active job seekers across 70+ job categories. Our AI
+                                    algorithm selects the best-fit candidates for your job role, helping employers like
+                                    you connect directly with candidates who have relevant experience and the desired
+                                    skills.
+                                </div>
+                            </li>
+                            <li>
+                                <div class="question">
+                                    Bulk hiring costs a lot of money, how do I save my business expenses?
+                                </div>
+                                <div class="answer">
+                                    On apna, you can either post a job & get unlimited applications or search
+                                    apnaDatabase using smart filters to find top-notch candidates.
+                                </div>
+                            </li>
+                            <li>
+                                <div class="question">
+                                    How is Apna different from other traditional portals?
+                                </div>
+                                <div class="answer">
+                                    Traditional hiring is long, expensive, and inefficient. Apna simplifies the process
+                                    by connecting employers directly with job seekers with relevant skills and
+                                    experience.
+                                </div>
+                            </li>
+                            <li>
+                                <div class="question">
+                                    I have special hiring requirements. Whom should I reach out to?
+                                </div>
+                                <div class="answer">
+                                    Please fill up the booking form above and our team will get in touch with you
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </section>
+    <section class="wrap-9">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-tp-4 col-m-12">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">Download Apna App</a></li>
+                        <li><a href="#">Free Job Alerts</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Vulnerability Disclosure Policy</a></li>
+                        <li><a href="#">International Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-3 col-tp-4 col-m-12">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">User Terms & Conditions</a></li>
+                        <li><a href="#">Employer Terms of Service</a></li>
+                        <li><a href="#">Employer FAQs</a></li>
+                        <li><a href="#">Community Guidelines</a></li>
+                    </ul>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 col-tp-4 col-m-12">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="wrap-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 col-tp-6 col-m-12">
+                    <div class="footer-links">
+                        <div class="social-links">
+                            <div>
+                                <svg width="48" height="48" viewBox="0 0 56 56" class="apna-time-logo">
+                                    <g data-name="Group 1" fill="#fff">
+                                        <path data-name="Path 1"
+                                            d="M11.23 0h33.54A11.228 11.228 0 0156 11.23v33.54A11.228 11.228 0 0144.77 56H11.23A11.228 11.228 0 010 44.77V11.23A11.228 11.228 0 0111.23 0z">
+                                        </path>
+                                        <path data-name="Path 2"
+                                            d="M11.23 0h33.54A11.228 11.228 0 0156 11.23v33.54A11.228 11.228 0 0144.77 56H11.23A11.228 11.228 0 010 44.77V11.23A11.228 11.228 0 0111.23 0z">
+                                        </path>
+                                    </g>
+                                    <path data-name="Path 3" d="M44.77 56h-7.437v-7h17.843a11.232 11.232 0 01-10.4 7z"
+                                        fill="#ffd166" fill-rule="evenodd"></path>
+                                    <path data-name="Path 4" d="M18.667 49v7h-7.438a11.232 11.232 0 01-10.4-7z"
+                                        fill="#2bb793" fill-rule="evenodd"></path>
+                                    <path data-name="Path 5" d="M18.667 49h18.667v7H18.667z" fill="#83bde4"
+                                        fill-rule="evenodd"></path>
+                                    <path data-name="Path 6"
+                                        d="M15.333 30.26a1.9 1.9 0 00.142.84.909.909 0 00.505.414l-.809 2.568a4.964 4.964 0 01-1.78-.414 2.685 2.685 0 01-1.132-1.082A3.637 3.637 0 019 34.163a3.53 3.53 0 01-2.579-.96 3.316 3.316 0 01-.98-2.478 3.166 3.166 0 011.334-2.75 6.654 6.654 0 013.883-.95h.768v-.263a1.428 1.428 0 00-.323-1.092 1.943 1.943 0 00-1.234-.283 6.617 6.617 0 00-1.244.151 13.01 13.01 0 00-1.547.415l-.87-2.548a12.257 12.257 0 014.268-.849 5.666 5.666 0 013.7.98 3.725 3.725 0 011.153 3v3.724zm-5.1 1.092a1.321 1.321 0 00.678-.182 1.63 1.63 0 00.515-.465v-1.6h-.424a2.086 2.086 0 00-1.254.3 1.086 1.086 0 00-.405.93 1.07 1.07 0 00.243.738.823.823 0 00.647.273zm13.67-8.8a3.409 3.409 0 013.024 1.516 7.556 7.556 0 011.02 4.247 7.955 7.955 0 01-.535 3A4.871 4.871 0 0125.9 33.4a3.585 3.585 0 01-2.255.758 3.226 3.226 0 01-2.507-1.072v4.854l-4 .4V22.96h3.559l.162 1.052A3.923 3.923 0 0122.3 22.9a4.036 4.036 0 011.607-.343zm-1.573 8.76q1.517 0 1.517-2.932a8.247 8.247 0 00-.162-1.881 1.563 1.563 0 00-.435-.86 1.105 1.105 0 00-.7-.212 1.641 1.641 0 00-1.415 1.011v4.126a1.8 1.8 0 00.546.576 1.227 1.227 0 00.647.172zm13.97-8.756a2.75 2.75 0 012.133.849 3.4 3.4 0 01.779 2.386v7.968h-4v-7.24a1.589 1.589 0 00-.152-.829.515.515 0 00-.455-.222q-.667 0-1.355 1.071v7.22h-4V22.96h3.5l.284 1.112a5.118 5.118 0 011.526-1.152 4.08 4.08 0 011.75-.364zm13.852 7.7a1.913 1.913 0 00.141.84.911.911 0 00.506.414l-.809 2.568a4.958 4.958 0 01-1.78-.414 2.685 2.685 0 01-1.132-1.082 3.639 3.639 0 01-3.256 1.577 3.527 3.527 0 01-2.578-.96 3.316 3.316 0 01-.98-2.478 3.166 3.166 0 011.334-2.75 6.653 6.653 0 013.882-.95h.769v-.263a1.424 1.424 0 00-.324-1.092 1.939 1.939 0 00-1.233-.283 6.608 6.608 0 00-1.244.151 12.959 12.959 0 00-1.547.415l-.87-2.548a12.246 12.246 0 014.267-.849 5.665 5.665 0 013.7.98 3.725 3.725 0 011.153 3zm-5.1 1.092a1.32 1.32 0 00.677-.182 1.63 1.63 0 00.516-.465v-1.6h-.425a2.09 2.09 0 00-1.254.3 1.085 1.085 0 00-.4.93 1.065 1.065 0 00.243.738.823.823 0 00.647.273z"
+                                        fill="#4d3951"></path>
+                                </svg>
+                            </div>
+                            <div class="links">
+                                <p>Follow us on social media</p>
+                                <ul>
+                                    <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="copyright">
+                            <small>
+                                © 2023 Apna | All rights reserved.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-3 col-tp-6">
+                    <figure>
+                        <img src="images/footer-img.webp" alt="footer img" loading="lazy">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"
+        integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
